@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102CC40F2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CC40D2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.swift */; };
+		102CC4102057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102CC40E2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.xib */; };
+		102CC41420580781001DB1FB /* ADVDespesasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CC41320580781001DB1FB /* ADVDespesasViewController.swift */; };
+		1054E11120581A0400A1BDAC /* ADVOverviewReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E11020581A0400A1BDAC /* ADVOverviewReportViewController.swift */; };
+		1054E11A20583DA000A1BDAC /* ADVGraficoPieableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E11820583DA000A1BDAC /* ADVGraficoPieableViewCell.swift */; };
+		1054E11B20583DA000A1BDAC /* ADVGraficoPieableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E11920583DA000A1BDAC /* ADVGraficoPieableViewCell.xib */; };
 		105A3A092045DA4700899C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A3A082045DA4700899C0A /* AppDelegate.swift */; };
 		105A3A0B2045DA4700899C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A3A0A2045DA4700899C0A /* ViewController.swift */; };
 		105A3A0E2045DA4800899C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105A3A0C2045DA4800899C0A /* Main.storyboard */; };
@@ -14,6 +20,15 @@
 		105A3A132045DA4800899C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105A3A112045DA4800899C0A /* LaunchScreen.storyboard */; };
 		105A3A1E2045DA4800899C0A /* FinantialAdivisorCortanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A3A1D2045DA4800899C0A /* FinantialAdivisorCortanaTests.swift */; };
 		105A3A292045DA4800899C0A /* FinantialAdivisorCortanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A3A282045DA4800899C0A /* FinantialAdivisorCortanaUITests.swift */; };
+		1062293B20570135007C109C /* ADVBalancoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1062293920570135007C109C /* ADVBalancoTableViewCell.swift */; };
+		1062293C20570135007C109C /* ADVBalancoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1062293A20570135007C109C /* ADVBalancoTableViewCell.xib */; };
+		10622942205701A8007C109C /* ADVDespesasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10622940205701A8007C109C /* ADVDespesasTableViewCell.swift */; };
+		10622943205701A8007C109C /* ADVDespesasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10622941205701A8007C109C /* ADVDespesasTableViewCell.xib */; };
+		1062294920570345007C109C /* ADVGastosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1062294720570345007C109C /* ADVGastosCollectionViewCell.swift */; };
+		1062294A20570345007C109C /* ADVGastosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1062294820570345007C109C /* ADVGastosCollectionViewCell.xib */; };
+		1062295420570E4B007C109C /* ADVDespesasCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1062295220570E4B007C109C /* ADVDespesasCell2TableViewCell.swift */; };
+		1062295520570E4B007C109C /* ADVDespesasCell2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1062295320570E4B007C109C /* ADVDespesasCell2TableViewCell.xib */; };
+		5B4EBDA4188EF0142A9A8A3B /* Pods_FinantialAdivisorCortana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E35CE2D08BB4BB73D8150EA /* Pods_FinantialAdivisorCortana.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		102CC40D2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesasClassificadasTableViewCell.swift; sourceTree = "<group>"; };
+		102CC40E2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVDespesasClassificadasTableViewCell.xib; sourceTree = "<group>"; };
+		102CC41320580781001DB1FB /* ADVDespesasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesasViewController.swift; sourceTree = "<group>"; };
+		1054E11020581A0400A1BDAC /* ADVOverviewReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVOverviewReportViewController.swift; sourceTree = "<group>"; };
+		1054E11820583DA000A1BDAC /* ADVGraficoPieableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVGraficoPieableViewCell.swift; sourceTree = "<group>"; };
+		1054E11920583DA000A1BDAC /* ADVGraficoPieableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVGraficoPieableViewCell.xib; sourceTree = "<group>"; };
 		105A3A052045DA4700899C0A /* FinantialAdivisorCortana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinantialAdivisorCortana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		105A3A082045DA4700899C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		105A3A0A2045DA4700899C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,17 @@
 		105A3A242045DA4800899C0A /* FinantialAdivisorCortanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinantialAdivisorCortanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		105A3A282045DA4800899C0A /* FinantialAdivisorCortanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinantialAdivisorCortanaUITests.swift; sourceTree = "<group>"; };
 		105A3A2A2045DA4800899C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1062293920570135007C109C /* ADVBalancoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVBalancoTableViewCell.swift; sourceTree = "<group>"; };
+		1062293A20570135007C109C /* ADVBalancoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVBalancoTableViewCell.xib; sourceTree = "<group>"; };
+		10622940205701A8007C109C /* ADVDespesasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesasTableViewCell.swift; sourceTree = "<group>"; };
+		10622941205701A8007C109C /* ADVDespesasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVDespesasTableViewCell.xib; sourceTree = "<group>"; };
+		1062294720570345007C109C /* ADVGastosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVGastosCollectionViewCell.swift; sourceTree = "<group>"; };
+		1062294820570345007C109C /* ADVGastosCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVGastosCollectionViewCell.xib; sourceTree = "<group>"; };
+		1062295220570E4B007C109C /* ADVDespesasCell2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesasCell2TableViewCell.swift; sourceTree = "<group>"; };
+		1062295320570E4B007C109C /* ADVDespesasCell2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVDespesasCell2TableViewCell.xib; sourceTree = "<group>"; };
+		6694B9CAD099D7A56E6D848F /* Pods-FinantialAdivisorCortana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinantialAdivisorCortana.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinantialAdivisorCortana/Pods-FinantialAdivisorCortana.release.xcconfig"; sourceTree = "<group>"; };
+		741294D85F963819BE2FAA27 /* Pods-FinantialAdivisorCortana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinantialAdivisorCortana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinantialAdivisorCortana/Pods-FinantialAdivisorCortana.debug.xcconfig"; sourceTree = "<group>"; };
+		9E35CE2D08BB4BB73D8150EA /* Pods_FinantialAdivisorCortana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinantialAdivisorCortana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4EBDA4188EF0142A9A8A3B /* Pods_FinantialAdivisorCortana.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +107,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		102CC40C2057FD9A001DB1FB /* ADVDespesasClassificadasCell */ = {
+			isa = PBXGroup;
+			children = (
+				102CC40D2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.swift */,
+				102CC40E2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.xib */,
+			);
+			path = ADVDespesasClassificadasCell;
+			sourceTree = "<group>";
+		};
+		102CC4112058075E001DB1FB /* ADVControllers */ = {
+			isa = PBXGroup;
+			children = (
+				102CC4122058076A001DB1FB /* ADVDespesas */,
+			);
+			path = ADVControllers;
+			sourceTree = "<group>";
+		};
+		102CC4122058076A001DB1FB /* ADVDespesas */ = {
+			isa = PBXGroup;
+			children = (
+				102CC41320580781001DB1FB /* ADVDespesasViewController.swift */,
+			);
+			path = ADVDespesas;
+			sourceTree = "<group>";
+		};
+		1054E11320583B8800A1BDAC /* ADVGraficoCell */ = {
+			isa = PBXGroup;
+			children = (
+				1054E11820583DA000A1BDAC /* ADVGraficoPieableViewCell.swift */,
+				1054E11920583DA000A1BDAC /* ADVGraficoPieableViewCell.xib */,
+			);
+			path = ADVGraficoCell;
+			sourceTree = "<group>";
+		};
 		105A39FC2045DA4700899C0A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +148,8 @@
 				105A3A1C2045DA4800899C0A /* FinantialAdivisorCortanaTests */,
 				105A3A272045DA4800899C0A /* FinantialAdivisorCortanaUITests */,
 				105A3A062045DA4700899C0A /* Products */,
+				BCDB956DE4F2785ED63AAA41 /* Pods */,
+				67B5F7600E65232F706051D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +166,11 @@
 		105A3A072045DA4700899C0A /* FinantialAdivisorCortana */ = {
 			isa = PBXGroup;
 			children = (
+				102CC4112058075E001DB1FB /* ADVControllers */,
+				1062293D2057013C007C109C /* ADVHomeCells */,
 				105A3A082045DA4700899C0A /* AppDelegate.swift */,
 				105A3A0A2045DA4700899C0A /* ViewController.swift */,
+				1054E11020581A0400A1BDAC /* ADVOverviewReportViewController.swift */,
 				105A3A0C2045DA4800899C0A /* Main.storyboard */,
 				105A3A0F2045DA4800899C0A /* Assets.xcassets */,
 				105A3A112045DA4800899C0A /* LaunchScreen.storyboard */,
@@ -125,6 +197,64 @@
 			path = FinantialAdivisorCortanaUITests;
 			sourceTree = "<group>";
 		};
+		1062293D2057013C007C109C /* ADVHomeCells */ = {
+			isa = PBXGroup;
+			children = (
+				1054E11320583B8800A1BDAC /* ADVGraficoCell */,
+				102CC40C2057FD9A001DB1FB /* ADVDespesasClassificadasCell */,
+				10622944205702F9007C109C /* ADVGastosCell */,
+				1062293F2057018B007C109C /* ADVDespesas */,
+				1062293E20570156007C109C /* ADVBalancoCell */,
+			);
+			path = ADVHomeCells;
+			sourceTree = "<group>";
+		};
+		1062293E20570156007C109C /* ADVBalancoCell */ = {
+			isa = PBXGroup;
+			children = (
+				1062293920570135007C109C /* ADVBalancoTableViewCell.swift */,
+				1062293A20570135007C109C /* ADVBalancoTableViewCell.xib */,
+			);
+			path = ADVBalancoCell;
+			sourceTree = "<group>";
+		};
+		1062293F2057018B007C109C /* ADVDespesas */ = {
+			isa = PBXGroup;
+			children = (
+				10622940205701A8007C109C /* ADVDespesasTableViewCell.swift */,
+				10622941205701A8007C109C /* ADVDespesasTableViewCell.xib */,
+				1062295220570E4B007C109C /* ADVDespesasCell2TableViewCell.swift */,
+				1062295320570E4B007C109C /* ADVDespesasCell2TableViewCell.xib */,
+			);
+			path = ADVDespesas;
+			sourceTree = "<group>";
+		};
+		10622944205702F9007C109C /* ADVGastosCell */ = {
+			isa = PBXGroup;
+			children = (
+				1062294720570345007C109C /* ADVGastosCollectionViewCell.swift */,
+				1062294820570345007C109C /* ADVGastosCollectionViewCell.xib */,
+			);
+			path = ADVGastosCell;
+			sourceTree = "<group>";
+		};
+		67B5F7600E65232F706051D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E35CE2D08BB4BB73D8150EA /* Pods_FinantialAdivisorCortana.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCDB956DE4F2785ED63AAA41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				741294D85F963819BE2FAA27 /* Pods-FinantialAdivisorCortana.debug.xcconfig */,
+				6694B9CAD099D7A56E6D848F /* Pods-FinantialAdivisorCortana.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 105A3A2D2045DA4800899C0A /* Build configuration list for PBXNativeTarget "FinantialAdivisorCortana" */;
 			buildPhases = (
+				98A3B015B12490BDA0AF690A /* [CP] Check Pods Manifest.lock */,
 				105A3A012045DA4700899C0A /* Sources */,
 				105A3A022045DA4700899C0A /* Frameworks */,
 				105A3A032045DA4700899C0A /* Resources */,
+				68C152CA4A22E67C8A0BEC79 /* [CP] Embed Pods Frameworks */,
+				A61D2EBE7C4E06E1CD9DB752 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +366,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				105A3A132045DA4800899C0A /* LaunchScreen.storyboard in Resources */,
+				1062294A20570345007C109C /* ADVGastosCollectionViewCell.xib in Resources */,
+				102CC4102057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.xib in Resources */,
 				105A3A102045DA4800899C0A /* Assets.xcassets in Resources */,
+				1054E11B20583DA000A1BDAC /* ADVGraficoPieableViewCell.xib in Resources */,
+				1062293C20570135007C109C /* ADVBalancoTableViewCell.xib in Resources */,
 				105A3A0E2045DA4800899C0A /* Main.storyboard in Resources */,
+				1062295520570E4B007C109C /* ADVDespesasCell2TableViewCell.xib in Resources */,
+				10622943205701A8007C109C /* ADVDespesasTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +393,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68C152CA4A22E67C8A0BEC79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FinantialAdivisorCortana/Pods-FinantialAdivisorCortana-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RKPieChart/RKPieChart.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RKPieChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinantialAdivisorCortana/Pods-FinantialAdivisorCortana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A3B015B12490BDA0AF690A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinantialAdivisorCortana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A61D2EBE7C4E06E1CD9DB752 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinantialAdivisorCortana/Pods-FinantialAdivisorCortana-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		105A3A012045DA4700899C0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1062293B20570135007C109C /* ADVBalancoTableViewCell.swift in Sources */,
 				105A3A0B2045DA4700899C0A /* ViewController.swift in Sources */,
 				105A3A092045DA4700899C0A /* AppDelegate.swift in Sources */,
+				102CC40F2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.swift in Sources */,
+				102CC41420580781001DB1FB /* ADVDespesasViewController.swift in Sources */,
+				1062294920570345007C109C /* ADVGastosCollectionViewCell.swift in Sources */,
+				1054E11120581A0400A1BDAC /* ADVOverviewReportViewController.swift in Sources */,
+				10622942205701A8007C109C /* ADVDespesasTableViewCell.swift in Sources */,
+				1062295420570E4B007C109C /* ADVDespesasCell2TableViewCell.swift in Sources */,
+				1054E11A20583DA000A1BDAC /* ADVGraficoPieableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +617,7 @@
 		};
 		105A3A2E2045DA4800899C0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741294D85F963819BE2FAA27 /* Pods-FinantialAdivisorCortana.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FinantialAdivisorCortana/Info.plist;
@@ -424,6 +630,7 @@
 		};
 		105A3A2F2045DA4800899C0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6694B9CAD099D7A56E6D848F /* Pods-FinantialAdivisorCortana.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FinantialAdivisorCortana/Info.plist;
@@ -507,6 +714,7 @@
 				105A3A2F2045DA4800899C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		105A3A302045DA4800899C0A /* Build configuration list for PBXNativeTarget "FinantialAdivisorCortanaTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +723,7 @@
 				105A3A322045DA4800899C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		105A3A332045DA4800899C0A /* Build configuration list for PBXNativeTarget "FinantialAdivisorCortanaUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +732,7 @@
 				105A3A352045DA4800899C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

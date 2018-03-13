@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.6.0)
+  - RKPieChart (0.0.1)
+  - SwiftSpinner (1.5.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - RKPieChart
+  - SwiftSpinner
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  RKPieChart: 8e643c505d24e61574f3a2fd6bd807403840b24b
+  SwiftSpinner: 4c058c7a1d6b444dd2e1d70988ead40783097133
+
+PODFILE CHECKSUM: 0b68a964c1ac4f40a932cd15a56ea89f1453f4f7
+
+COCOAPODS: 1.4.0

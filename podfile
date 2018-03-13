@@ -1,0 +1,14 @@
+target 'FinantialAdivisorCortana' do
+
+  use_frameworks!
+
+    # Pods for Finantial Adivisor Cortana Santander App 
+
+  pod 'SwiftSpinner'
+  pod 'Alamofire', '~> 4.5'
+  pod "RKPieChart"
+
+
+# Developed by João Paulo from ZUP I.T
+
+end
