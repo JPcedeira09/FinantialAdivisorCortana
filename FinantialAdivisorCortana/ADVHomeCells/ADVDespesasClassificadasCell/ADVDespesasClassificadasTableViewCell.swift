@@ -10,6 +10,11 @@ import UIKit
 
 class ADVDespesasClassificadasTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var viewArrendondado: UIView!
+    @IBOutlet weak var iconDescricao: UIImageView!
+    @IBOutlet weak var titleDescricao: UILabel!
+    @IBOutlet weak var gastoValor: UILabel!
+    @IBOutlet weak var porcentagemRespectivaAoTotal: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
     }

@@ -10,6 +10,13 @@ import UIKit
 
 class ADVDespesasCell2TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var viewArendondar: UIView!
+    @IBOutlet weak var imageGasto: UIImageView!
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var descricao: UILabel!
+    @IBOutlet weak var valorPgamento: UILabel!
+    @IBOutlet weak var mes: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

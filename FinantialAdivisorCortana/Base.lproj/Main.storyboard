@@ -279,7 +279,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bg1-BE-Ev9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1689" y="-898"/>
+            <point key="canvasLocation" x="1641" y="-220"/>
         </scene>
         <!--Relatório-->
         <scene sceneID="yl3-Gl-na7">
@@ -320,7 +320,41 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="72c-hg-aFS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781.875" y="-219.71830985915494"/>
+            <point key="canvasLocation" x="864" y="-220"/>
+        </scene>
+        <!--Despesas-->
+        <scene sceneID="XNS-Ij-wO7">
+            <objects>
+                <viewController id="Lq6-pY-ttp" customClass="ADVDespesasTransacoesViewController" customModule="FinantialAdivisorCortana" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l3n-mn-9PM"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Rd-lh-oOv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1HZ-7K-4Gz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JO4-Qy-Rwg">
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Rd-lh-oOv" firstAttribute="top" secondItem="JO4-Qy-Rwg" secondAttribute="bottom" id="Sqw-uo-2PY"/>
+                            <constraint firstItem="JO4-Qy-Rwg" firstAttribute="top" secondItem="l3n-mn-9PM" secondAttribute="bottom" id="Xtm-4y-7Mh"/>
+                            <constraint firstAttribute="trailing" secondItem="JO4-Qy-Rwg" secondAttribute="trailing" id="c3Y-fs-RnK"/>
+                            <constraint firstItem="JO4-Qy-Rwg" firstAttribute="leading" secondItem="1HZ-7K-4Gz" secondAttribute="leading" id="cd5-aS-oJg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Despesas" id="h0i-8p-3vR"/>
+                    <connections>
+                        <outlet property="table" destination="JO4-Qy-Rwg" id="VqT-vX-9Ls"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="luX-Vf-pnJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1641" y="-898"/>
         </scene>
         <!--Despesas-->
         <scene sceneID="Cjh-zd-4mv">
@@ -335,27 +369,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dlV-Or-kJ7">
-                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                                <rect key="frame" x="0.0" y="230" width="320" height="289"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ToF-Y5-6zf">
+                                <rect key="frame" x="16" y="72" width="288" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="dBz-mK-dSN"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="ivz-0z-HJR"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dlV-Or-kJ7" firstAttribute="top" secondItem="otk-di-V90" secondAttribute="bottom" id="3YV-Jj-6BG"/>
                             <constraint firstAttribute="trailing" secondItem="dlV-Or-kJ7" secondAttribute="trailing" id="O0J-J9-Ytm"/>
+                            <constraint firstItem="ToF-Y5-6zf" firstAttribute="top" secondItem="otk-di-V90" secondAttribute="bottom" constant="8" id="OAR-m1-Yp3"/>
                             <constraint firstItem="e39-e8-fD1" firstAttribute="top" secondItem="dlV-Or-kJ7" secondAttribute="bottom" id="Tcp-e5-eE2"/>
+                            <constraint firstItem="dlV-Or-kJ7" firstAttribute="top" secondItem="ToF-Y5-6zf" secondAttribute="bottom" constant="8" id="hYo-6N-5Q0"/>
+                            <constraint firstItem="ToF-Y5-6zf" firstAttribute="trailing" secondItem="KHg-2c-nx6" secondAttribute="trailingMargin" id="otT-Lv-D3b"/>
+                            <constraint firstItem="ToF-Y5-6zf" firstAttribute="leading" secondItem="KHg-2c-nx6" secondAttribute="leadingMargin" id="r3j-3K-g09"/>
                             <constraint firstItem="dlV-Or-kJ7" firstAttribute="leading" secondItem="KHg-2c-nx6" secondAttribute="leading" id="xLU-nB-OkN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Despesas" id="ktQ-or-WwM"/>
                     <connections>
+                        <outlet property="graficoAcompanhamento" destination="ToF-Y5-6zf" id="oVL-du-PYr"/>
                         <outlet property="tableDespesas" destination="dlV-Or-kJ7" id="Xs4-hH-xhk"/>
-                        <segue destination="asa-lR-lVV" kind="show" id="uZs-sZ-bfO"/>
+                        <segue destination="Lq6-pY-ttp" kind="show" identifier="segueTransacoes" id="ebm-0I-pd6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaU-Ab-K26" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="866" y="-898"/>
+            <point key="canvasLocation" x="864.375" y="-898.94366197183103"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="oMm-0v-6eg">
@@ -375,11 +421,11 @@
             </objects>
             <point key="canvasLocation" x="-932" y="-557"/>
         </scene>
-        <!--Item 1-->
+        <!--Relatório-->
         <scene sceneID="uj3-uS-OjO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pZN-WE-CdZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="hZe-vz-Q2c"/>
+                    <tabBarItem key="tabBarItem" title="Relatório" image="grafico" id="hZe-vz-Q2c"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qd6-YI-uLV">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -416,6 +462,7 @@
     </scenes>
     <resources>
         <image name="foto" width="1080" height="720"/>
+        <image name="grafico" width="25" height="25"/>
         <image name="icChart" width="22" height="22"/>
         <image name="icContaCorrente" width="18" height="19"/>
         <image name="icEmprestimo" width="18" height="17"/>

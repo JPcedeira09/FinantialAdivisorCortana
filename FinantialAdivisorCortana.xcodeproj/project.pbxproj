@@ -13,6 +13,8 @@
 		1054E11120581A0400A1BDAC /* ADVOverviewReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E11020581A0400A1BDAC /* ADVOverviewReportViewController.swift */; };
 		1054E11A20583DA000A1BDAC /* ADVGraficoPieableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E11820583DA000A1BDAC /* ADVGraficoPieableViewCell.swift */; };
 		1054E11B20583DA000A1BDAC /* ADVGraficoPieableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E11920583DA000A1BDAC /* ADVGraficoPieableViewCell.xib */; };
+		1054E11D20586C6800A1BDAC /* ADVDespesasTransacoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E11C20586C6800A1BDAC /* ADVDespesasTransacoesViewController.swift */; };
+		1054E12020586D1600A1BDAC /* ADVDespesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E11F20586D1600A1BDAC /* ADVDespesas.swift */; };
 		105A3A092045DA4700899C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A3A082045DA4700899C0A /* AppDelegate.swift */; };
 		105A3A0B2045DA4700899C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A3A0A2045DA4700899C0A /* ViewController.swift */; };
 		105A3A0E2045DA4800899C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105A3A0C2045DA4800899C0A /* Main.storyboard */; };
@@ -55,6 +57,8 @@
 		1054E11020581A0400A1BDAC /* ADVOverviewReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVOverviewReportViewController.swift; sourceTree = "<group>"; };
 		1054E11820583DA000A1BDAC /* ADVGraficoPieableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVGraficoPieableViewCell.swift; sourceTree = "<group>"; };
 		1054E11920583DA000A1BDAC /* ADVGraficoPieableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVGraficoPieableViewCell.xib; sourceTree = "<group>"; };
+		1054E11C20586C6800A1BDAC /* ADVDespesasTransacoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesasTransacoesViewController.swift; sourceTree = "<group>"; };
+		1054E11F20586D1600A1BDAC /* ADVDespesas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesas.swift; sourceTree = "<group>"; };
 		105A3A052045DA4700899C0A /* FinantialAdivisorCortana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinantialAdivisorCortana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		105A3A082045DA4700899C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		105A3A0A2045DA4700899C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				102CC41320580781001DB1FB /* ADVDespesasViewController.swift */,
+				1054E11C20586C6800A1BDAC /* ADVDespesasTransacoesViewController.swift */,
 			);
 			path = ADVDespesas;
 			sourceTree = "<group>";
@@ -139,6 +144,14 @@
 				1054E11920583DA000A1BDAC /* ADVGraficoPieableViewCell.xib */,
 			);
 			path = ADVGraficoCell;
+			sourceTree = "<group>";
+		};
+		1054E11E20586CFE00A1BDAC /* ADVModels */ = {
+			isa = PBXGroup;
+			children = (
+				1054E11F20586D1600A1BDAC /* ADVDespesas.swift */,
+			);
+			path = ADVModels;
 			sourceTree = "<group>";
 		};
 		105A39FC2045DA4700899C0A = {
@@ -166,6 +179,7 @@
 		105A3A072045DA4700899C0A /* FinantialAdivisorCortana */ = {
 			isa = PBXGroup;
 			children = (
+				1054E11E20586CFE00A1BDAC /* ADVModels */,
 				102CC4112058075E001DB1FB /* ADVControllers */,
 				1062293D2057013C007C109C /* ADVHomeCells */,
 				105A3A082045DA4700899C0A /* AppDelegate.swift */,
@@ -458,10 +472,12 @@
 			files = (
 				1062293B20570135007C109C /* ADVBalancoTableViewCell.swift in Sources */,
 				105A3A0B2045DA4700899C0A /* ViewController.swift in Sources */,
+				1054E11D20586C6800A1BDAC /* ADVDespesasTransacoesViewController.swift in Sources */,
 				105A3A092045DA4700899C0A /* AppDelegate.swift in Sources */,
 				102CC40F2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.swift in Sources */,
 				102CC41420580781001DB1FB /* ADVDespesasViewController.swift in Sources */,
 				1062294920570345007C109C /* ADVGastosCollectionViewCell.swift in Sources */,
+				1054E12020586D1600A1BDAC /* ADVDespesas.swift in Sources */,
 				1054E11120581A0400A1BDAC /* ADVOverviewReportViewController.swift in Sources */,
 				10622942205701A8007C109C /* ADVDespesasTableViewCell.swift in Sources */,
 				1062295420570E4B007C109C /* ADVDespesasCell2TableViewCell.swift in Sources */,
