@@ -38,7 +38,9 @@ class ADVDespesasViewController: UIViewController {
         posicionaGrafico()
         
         self.tableDespesas.delegate = self
+        
         self.tableDespesas.dataSource = self
+        
         self.tableDespesas.register(UINib(nibName: "ADVGraficoPieableViewCell", bundle: nil), forCellReuseIdentifier: "ADVGraficoPieableViewCell")
         self.tableDespesas.register(UINib(nibName: "ADVDespesasClassificadasTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVDespesasClassificadasTableViewCell")
         
@@ -283,3 +285,8 @@ extension ADVDespesasViewController {
     }
 }
 
+extension UITableView {
+    func reloadData(with animation: UITableViewRowAnimation) {
+        reloadSections(IndexSet(integersIn: 0..<numberOfSections), with: animation)
+    }
+}

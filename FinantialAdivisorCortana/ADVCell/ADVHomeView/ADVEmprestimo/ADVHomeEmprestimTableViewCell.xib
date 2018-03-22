@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ADVHomeEmprestimTableViewCell" id="zA6-d8-XDL" customClass="ADVHomeEmprestimTableViewCell" customModule="FinantialAdivisorCortana" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zA6-d8-XDL" id="TZX-Ky-ckO">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="159.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRP-5g-EgF">
+                        <rect key="frame" x="16" y="11" width="288" height="138"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icContaCorrente" translatesAutoresizingMaskIntoConstraints="NO" id="bpf-LK-9Lm">
+                                <rect key="frame" x="8" y="8" width="33" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="aFv-Q2-FOK"/>
+                                    <constraint firstAttribute="width" constant="33" id="uTH-9x-P50"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saldo total emprestado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxj-aJ-pqf">
+                                <rect key="frame" x="8" y="49" width="272" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="t8Y-c5-oNP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.478376627" green="0.4784628749" blue="0.47837114330000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAD-Oa-pB4">
+                                <rect key="frame" x="8" y="82" width="33" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="9Tr-dI-OBj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.400,90" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwX-dE-B9d">
+                                <rect key="frame" x="49" y="82" width="231" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empréstimo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XB2-MM-H9e">
+                                <rect key="frame" x="49" y="8" width="231" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dwX-dE-B9d" secondAttribute="trailing" constant="8" id="1DU-f4-5bp"/>
+                            <constraint firstAttribute="trailing" secondItem="XB2-MM-H9e" secondAttribute="trailing" constant="8" id="50x-RL-iA4"/>
+                            <constraint firstItem="bpf-LK-9Lm" firstAttribute="leading" secondItem="lRP-5g-EgF" secondAttribute="leading" constant="8" id="6hr-CD-ei7"/>
+                            <constraint firstItem="IAD-Oa-pB4" firstAttribute="width" secondItem="bpf-LK-9Lm" secondAttribute="width" id="97j-ug-IRU"/>
+                            <constraint firstItem="Cxj-aJ-pqf" firstAttribute="top" secondItem="XB2-MM-H9e" secondAttribute="bottom" constant="8" id="Ag2-P2-eUt"/>
+                            <constraint firstAttribute="bottom" secondItem="dwX-dE-B9d" secondAttribute="bottom" constant="8" id="DKV-7M-HxY"/>
+                            <constraint firstItem="XB2-MM-H9e" firstAttribute="leading" secondItem="bpf-LK-9Lm" secondAttribute="trailing" constant="8" id="L8h-KK-Ml7"/>
+                            <constraint firstItem="XB2-MM-H9e" firstAttribute="top" secondItem="bpf-LK-9Lm" secondAttribute="top" id="USI-7o-zCN"/>
+                            <constraint firstItem="bpf-LK-9Lm" firstAttribute="top" secondItem="lRP-5g-EgF" secondAttribute="top" constant="8" id="jD4-Ue-bm6"/>
+                            <constraint firstAttribute="trailing" secondItem="Cxj-aJ-pqf" secondAttribute="trailing" constant="8" id="lRY-ye-70O"/>
+                            <constraint firstItem="XB2-MM-H9e" firstAttribute="bottom" secondItem="bpf-LK-9Lm" secondAttribute="bottom" id="mar-Kv-srD"/>
+                            <constraint firstItem="IAD-Oa-pB4" firstAttribute="leading" secondItem="lRP-5g-EgF" secondAttribute="leading" constant="8" id="mdp-w5-WGW"/>
+                            <constraint firstItem="dwX-dE-B9d" firstAttribute="leading" secondItem="IAD-Oa-pB4" secondAttribute="trailing" constant="8" id="saQ-6q-3x3"/>
+                            <constraint firstItem="dwX-dE-B9d" firstAttribute="top" secondItem="Cxj-aJ-pqf" secondAttribute="bottom" constant="8" id="v5g-lr-TNi"/>
+                            <constraint firstItem="IAD-Oa-pB4" firstAttribute="top" secondItem="Cxj-aJ-pqf" secondAttribute="bottom" constant="8" id="wZW-7c-sHC"/>
+                            <constraint firstItem="Cxj-aJ-pqf" firstAttribute="leading" secondItem="lRP-5g-EgF" secondAttribute="leading" constant="8" id="xII-Fb-rtc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.89800101519999997" green="0.89845472569999996" blue="0.87750619649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="lRP-5g-EgF" secondAttribute="bottom" id="0hB-ug-N2f"/>
+                    <constraint firstItem="lRP-5g-EgF" firstAttribute="leading" secondItem="TZX-Ky-ckO" secondAttribute="leadingMargin" id="UrW-lT-xuy"/>
+                    <constraint firstItem="lRP-5g-EgF" firstAttribute="trailing" secondItem="TZX-Ky-ckO" secondAttribute="trailingMargin" id="XPp-m0-S4S"/>
+                    <constraint firstItem="lRP-5g-EgF" firstAttribute="top" secondItem="TZX-Ky-ckO" secondAttribute="topMargin" id="kal-zP-Vck"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="IIA-L7-XdP"/>
+            <connections>
+                <outlet property="valor" destination="dwX-dE-B9d" id="ZId-82-HK0"/>
+                <outlet property="viewMae" destination="lRP-5g-EgF" id="T55-Hg-ETd"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icContaCorrente" width="18" height="19"/>
+    </resources>
+</document>

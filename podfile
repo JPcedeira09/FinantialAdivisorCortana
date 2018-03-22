@@ -6,7 +6,10 @@ target 'FinantialAdivisorCortana' do
 
   pod 'SwiftSpinner'
   pod 'Alamofire', '~> 4.5'
-  pod "RKPieChart"
+  pod 'RKPieChart'
+  pod 'ExpandableCell', '~> 1.2'
+  pod 'UICircularProgressRing', '~> 1.8'
+  pod 'SideMenu', '3.0.1'
 
 
 # Developed by João Paulo from ZUP I.T

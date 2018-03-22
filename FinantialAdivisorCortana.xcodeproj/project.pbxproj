@@ -15,9 +15,32 @@
 		1054E11B20583DA000A1BDAC /* ADVGraficoPieableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E11920583DA000A1BDAC /* ADVGraficoPieableViewCell.xib */; };
 		1054E11D20586C6800A1BDAC /* ADVDespesasTransacoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E11C20586C6800A1BDAC /* ADVDespesasTransacoesViewController.swift */; };
 		1054E12020586D1600A1BDAC /* ADVDespesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E11F20586D1600A1BDAC /* ADVDespesas.swift */; };
+		1054E1262059576D00A1BDAC /* ADVContaCorrenteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E1242059576D00A1BDAC /* ADVContaCorrenteTableViewCell.swift */; };
+		1054E1272059576D00A1BDAC /* ADVContaCorrenteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E1252059576D00A1BDAC /* ADVContaCorrenteTableViewCell.xib */; };
+		1054E12E205957E500A1BDAC /* ADVCartaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E12C205957E500A1BDAC /* ADVCartaoTableViewCell.swift */; };
+		1054E12F205957E500A1BDAC /* ADVCartaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E12D205957E500A1BDAC /* ADVCartaoTableViewCell.xib */; };
+		1054E132205957F300A1BDAC /* ADVEmprestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E130205957F300A1BDAC /* ADVEmprestCell.swift */; };
+		1054E133205957F300A1BDAC /* ADVEmprestimoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E131205957F300A1BDAC /* ADVEmprestimoTableViewCell.xib */; };
+		1054E1382059582200A1BDAC /* ADVInvestimentoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E1362059582200A1BDAC /* ADVInvestimentoTableViewCell.swift */; };
+		1054E1392059582200A1BDAC /* ADVInvestimentoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E1372059582200A1BDAC /* ADVInvestimentoTableViewCell.xib */; };
+		1054E1412059611E00A1BDAC /* ADVTitleExpandableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E13F2059611E00A1BDAC /* ADVTitleExpandableTableViewCell.swift */; };
+		1054E1422059611E00A1BDAC /* ADVTitleExpandableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E1402059611E00A1BDAC /* ADVTitleExpandableTableViewCell.xib */; };
+		1054E1442059701200A1BDAC /* ADVHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E1432059701200A1BDAC /* ADVHomeViewController.swift */; };
+		1054E146205974B300A1BDAC /* ADVHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E145205974B300A1BDAC /* ADVHomeCell.swift */; };
+		1054E14920599EBF00A1BDAC /* FooterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E14720599EBF00A1BDAC /* FooterTableViewCell.swift */; };
+		1054E14A20599EBF00A1BDAC /* FooterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E14820599EBF00A1BDAC /* FooterTableViewCell.xib */; };
+		1054E1502059BA1400A1BDAC /* ADVHomeccTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E14E2059BA1400A1BDAC /* ADVHomeccTableViewCell.swift */; };
+		1054E1512059BA1400A1BDAC /* ADVHomeccTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E14F2059BA1400A1BDAC /* ADVHomeccTableViewCell.xib */; };
+		1054E1542059BC3D00A1BDAC /* ADVCreditCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E1522059BC3D00A1BDAC /* ADVCreditCardTableViewCell.swift */; };
+		1054E1552059BC3D00A1BDAC /* ADVCreditCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E1532059BC3D00A1BDAC /* ADVCreditCardTableViewCell.xib */; };
+		1054E1592059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E1572059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.swift */; };
+		1054E15A2059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E1582059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.xib */; };
+		1054E1642059C2CA00A1BDAC /* ADVMinhaContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E1632059C2CA00A1BDAC /* ADVMinhaContaViewController.swift */; };
+		1054E16B205AA70F00A1BDAC /* ADVHomeEmprestimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054E169205AA70F00A1BDAC /* ADVHomeEmprestimTableViewCell.swift */; };
+		1054E16C205AA70F00A1BDAC /* ADVHomeEmprestimTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1054E16A205AA70F00A1BDAC /* ADVHomeEmprestimTableViewCell.xib */; };
+		1054E16E205AC35C00A1BDAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1054E16D205AC35C00A1BDAC /* Main.storyboard */; };
 		105A3A092045DA4700899C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A3A082045DA4700899C0A /* AppDelegate.swift */; };
 		105A3A0B2045DA4700899C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A3A0A2045DA4700899C0A /* ViewController.swift */; };
-		105A3A0E2045DA4800899C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105A3A0C2045DA4800899C0A /* Main.storyboard */; };
 		105A3A102045DA4800899C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105A3A0F2045DA4800899C0A /* Assets.xcassets */; };
 		105A3A132045DA4800899C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105A3A112045DA4800899C0A /* LaunchScreen.storyboard */; };
 		105A3A1E2045DA4800899C0A /* FinantialAdivisorCortanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A3A1D2045DA4800899C0A /* FinantialAdivisorCortanaTests.swift */; };
@@ -30,6 +53,26 @@
 		1062294A20570345007C109C /* ADVGastosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1062294820570345007C109C /* ADVGastosCollectionViewCell.xib */; };
 		1062295420570E4B007C109C /* ADVDespesasCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1062295220570E4B007C109C /* ADVDespesasCell2TableViewCell.swift */; };
 		1062295520570E4B007C109C /* ADVDespesasCell2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1062295320570E4B007C109C /* ADVDespesasCell2TableViewCell.xib */; };
+		10C092D7205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092D5205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.swift */; };
+		10C092D8205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C092D6205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.xib */; };
+		10C092DB205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092D9205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.swift */; };
+		10C092DC205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C092DA205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.xib */; };
+		10C092DF205FFC5700D9C4A6 /* ADVSavingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092DD205FFC5700D9C4A6 /* ADVSavingTableViewCell.swift */; };
+		10C092E0205FFC5700D9C4A6 /* ADVSavingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C092DE205FFC5700D9C4A6 /* ADVSavingTableViewCell.xib */; };
+		10C092E32060030900D9C4A6 /* ADVMesesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092E12060030900D9C4A6 /* ADVMesesTableViewCell.swift */; };
+		10C092E42060030900D9C4A6 /* ADVMesesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C092E22060030900D9C4A6 /* ADVMesesTableViewCell.xib */; };
+		10C092E72060081500D9C4A6 /* ADVFooterMetaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092E52060081500D9C4A6 /* ADVFooterMetaTableViewCell.swift */; };
+		10C092E82060081500D9C4A6 /* ADVFooterMetaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C092E62060081500D9C4A6 /* ADVFooterMetaTableViewCell.xib */; };
+		10C092EB206014A400D9C4A6 /* ADVMetasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092EA206014A400D9C4A6 /* ADVMetasViewController.swift */; };
+		10C092F420604CED00D9C4A6 /* ADVFooterClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092F220604CED00D9C4A6 /* ADVFooterClassTableViewCell.swift */; };
+		10C092F520604CED00D9C4A6 /* ADVFooterClassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C092F320604CED00D9C4A6 /* ADVFooterClassTableViewCell.xib */; };
+		10C092F820604E6000D9C4A6 /* ADVGraficoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092F620604E6000D9C4A6 /* ADVGraficoTableViewCell.swift */; };
+		10C092F920604E6000D9C4A6 /* ADVGraficoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C092F720604E6000D9C4A6 /* ADVGraficoTableViewCell.xib */; };
+		10C09300206056F800D9C4A6 /* ADVValorClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092FE206056F800D9C4A6 /* ADVValorClassTableViewCell.swift */; };
+		10C09301206056F800D9C4A6 /* ADVValorClassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C092FF206056F800D9C4A6 /* ADVValorClassTableViewCell.xib */; };
+		10C093032061397E00D9C4A6 /* ADVMetaClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C093022061397E00D9C4A6 /* ADVMetaClassViewController.swift */; };
+		10C09308206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C09306206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.swift */; };
+		10C09309206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C09307206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.xib */; };
 		5B4EBDA4188EF0142A9A8A3B /* Pods_FinantialAdivisorCortana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E35CE2D08BB4BB73D8150EA /* Pods_FinantialAdivisorCortana.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,10 +102,33 @@
 		1054E11920583DA000A1BDAC /* ADVGraficoPieableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVGraficoPieableViewCell.xib; sourceTree = "<group>"; };
 		1054E11C20586C6800A1BDAC /* ADVDespesasTransacoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesasTransacoesViewController.swift; sourceTree = "<group>"; };
 		1054E11F20586D1600A1BDAC /* ADVDespesas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesas.swift; sourceTree = "<group>"; };
+		1054E1242059576D00A1BDAC /* ADVContaCorrenteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVContaCorrenteTableViewCell.swift; sourceTree = "<group>"; };
+		1054E1252059576D00A1BDAC /* ADVContaCorrenteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVContaCorrenteTableViewCell.xib; sourceTree = "<group>"; };
+		1054E12C205957E500A1BDAC /* ADVCartaoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVCartaoTableViewCell.swift; sourceTree = "<group>"; };
+		1054E12D205957E500A1BDAC /* ADVCartaoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVCartaoTableViewCell.xib; sourceTree = "<group>"; };
+		1054E130205957F300A1BDAC /* ADVEmprestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVEmprestCell.swift; sourceTree = "<group>"; };
+		1054E131205957F300A1BDAC /* ADVEmprestimoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVEmprestimoTableViewCell.xib; sourceTree = "<group>"; };
+		1054E1362059582200A1BDAC /* ADVInvestimentoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVInvestimentoTableViewCell.swift; sourceTree = "<group>"; };
+		1054E1372059582200A1BDAC /* ADVInvestimentoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVInvestimentoTableViewCell.xib; sourceTree = "<group>"; };
+		1054E13F2059611E00A1BDAC /* ADVTitleExpandableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVTitleExpandableTableViewCell.swift; sourceTree = "<group>"; };
+		1054E1402059611E00A1BDAC /* ADVTitleExpandableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVTitleExpandableTableViewCell.xib; sourceTree = "<group>"; };
+		1054E1432059701200A1BDAC /* ADVHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVHomeViewController.swift; sourceTree = "<group>"; };
+		1054E145205974B300A1BDAC /* ADVHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVHomeCell.swift; sourceTree = "<group>"; };
+		1054E14720599EBF00A1BDAC /* FooterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterTableViewCell.swift; sourceTree = "<group>"; };
+		1054E14820599EBF00A1BDAC /* FooterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterTableViewCell.xib; sourceTree = "<group>"; };
+		1054E14E2059BA1400A1BDAC /* ADVHomeccTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVHomeccTableViewCell.swift; sourceTree = "<group>"; };
+		1054E14F2059BA1400A1BDAC /* ADVHomeccTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVHomeccTableViewCell.xib; sourceTree = "<group>"; };
+		1054E1522059BC3D00A1BDAC /* ADVCreditCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVCreditCardTableViewCell.swift; sourceTree = "<group>"; };
+		1054E1532059BC3D00A1BDAC /* ADVCreditCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVCreditCardTableViewCell.xib; sourceTree = "<group>"; };
+		1054E1572059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVInvertimentsHomeTableViewCell.swift; sourceTree = "<group>"; };
+		1054E1582059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVInvertimentsHomeTableViewCell.xib; sourceTree = "<group>"; };
+		1054E1632059C2CA00A1BDAC /* ADVMinhaContaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVMinhaContaViewController.swift; sourceTree = "<group>"; };
+		1054E169205AA70F00A1BDAC /* ADVHomeEmprestimTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVHomeEmprestimTableViewCell.swift; sourceTree = "<group>"; };
+		1054E16A205AA70F00A1BDAC /* ADVHomeEmprestimTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVHomeEmprestimTableViewCell.xib; sourceTree = "<group>"; };
+		1054E16D205AC35C00A1BDAC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		105A3A052045DA4700899C0A /* FinantialAdivisorCortana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinantialAdivisorCortana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		105A3A082045DA4700899C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		105A3A0A2045DA4700899C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		105A3A0D2045DA4800899C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		105A3A0F2045DA4800899C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		105A3A122045DA4800899C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		105A3A142045DA4800899C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +146,26 @@
 		1062294820570345007C109C /* ADVGastosCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVGastosCollectionViewCell.xib; sourceTree = "<group>"; };
 		1062295220570E4B007C109C /* ADVDespesasCell2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesasCell2TableViewCell.swift; sourceTree = "<group>"; };
 		1062295320570E4B007C109C /* ADVDespesasCell2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVDespesasCell2TableViewCell.xib; sourceTree = "<group>"; };
+		10C092D5205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVHeaderMetaTableViewCell.swift; sourceTree = "<group>"; };
+		10C092D6205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVHeaderMetaTableViewCell.xib; sourceTree = "<group>"; };
+		10C092D9205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVGraficoMetaTableViewCell.swift; sourceTree = "<group>"; };
+		10C092DA205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVGraficoMetaTableViewCell.xib; sourceTree = "<group>"; };
+		10C092DD205FFC5700D9C4A6 /* ADVSavingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVSavingTableViewCell.swift; sourceTree = "<group>"; };
+		10C092DE205FFC5700D9C4A6 /* ADVSavingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVSavingTableViewCell.xib; sourceTree = "<group>"; };
+		10C092E12060030900D9C4A6 /* ADVMesesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVMesesTableViewCell.swift; sourceTree = "<group>"; };
+		10C092E22060030900D9C4A6 /* ADVMesesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVMesesTableViewCell.xib; sourceTree = "<group>"; };
+		10C092E52060081500D9C4A6 /* ADVFooterMetaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVFooterMetaTableViewCell.swift; sourceTree = "<group>"; };
+		10C092E62060081500D9C4A6 /* ADVFooterMetaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVFooterMetaTableViewCell.xib; sourceTree = "<group>"; };
+		10C092EA206014A400D9C4A6 /* ADVMetasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVMetasViewController.swift; sourceTree = "<group>"; };
+		10C092F220604CED00D9C4A6 /* ADVFooterClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVFooterClassTableViewCell.swift; sourceTree = "<group>"; };
+		10C092F320604CED00D9C4A6 /* ADVFooterClassTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVFooterClassTableViewCell.xib; sourceTree = "<group>"; };
+		10C092F620604E6000D9C4A6 /* ADVGraficoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVGraficoTableViewCell.swift; sourceTree = "<group>"; };
+		10C092F720604E6000D9C4A6 /* ADVGraficoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVGraficoTableViewCell.xib; sourceTree = "<group>"; };
+		10C092FE206056F800D9C4A6 /* ADVValorClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVValorClassTableViewCell.swift; sourceTree = "<group>"; };
+		10C092FF206056F800D9C4A6 /* ADVValorClassTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVValorClassTableViewCell.xib; sourceTree = "<group>"; };
+		10C093022061397E00D9C4A6 /* ADVMetaClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVMetaClassViewController.swift; sourceTree = "<group>"; };
+		10C09306206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVGatosEDatasTableViewCell.swift; sourceTree = "<group>"; };
+		10C09307206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVGatosEDatasTableViewCell.xib; sourceTree = "<group>"; };
 		6694B9CAD099D7A56E6D848F /* Pods-FinantialAdivisorCortana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinantialAdivisorCortana.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinantialAdivisorCortana/Pods-FinantialAdivisorCortana.release.xcconfig"; sourceTree = "<group>"; };
 		741294D85F963819BE2FAA27 /* Pods-FinantialAdivisorCortana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinantialAdivisorCortana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinantialAdivisorCortana/Pods-FinantialAdivisorCortana.debug.xcconfig"; sourceTree = "<group>"; };
 		9E35CE2D08BB4BB73D8150EA /* Pods_FinantialAdivisorCortana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinantialAdivisorCortana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +209,8 @@
 		102CC4112058075E001DB1FB /* ADVControllers */ = {
 			isa = PBXGroup;
 			children = (
+				10C092E92060148A00D9C4A6 /* ADVMetas */,
+				1054E123205956D200A1BDAC /* ADVHome */,
 				102CC4122058076A001DB1FB /* ADVDespesas */,
 			);
 			path = ADVControllers;
@@ -135,6 +223,18 @@
 				1054E11C20586C6800A1BDAC /* ADVDespesasTransacoesViewController.swift */,
 			);
 			path = ADVDespesas;
+			sourceTree = "<group>";
+		};
+		10400CAD205C401000114DAC /* ADVMetaCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C092D4205FF4D900D9C4A6 /* ADVDespesasCell */,
+				10C092D3205FF4B900D9C4A6 /* ADVMesesMetaCell */,
+				10C092D2205FF48600D9C4A6 /* ADVSavingMetaCell */,
+				10C092D1205FF44800D9C4A6 /* ADVGraficoMetaCell */,
+				10C092D0205FF43500D9C4A6 /* ADVHeaderMetaCell */,
+			);
+			path = ADVMetaCell;
 			sourceTree = "<group>";
 		};
 		1054E11320583B8800A1BDAC /* ADVGraficoCell */ = {
@@ -150,8 +250,142 @@
 			isa = PBXGroup;
 			children = (
 				1054E11F20586D1600A1BDAC /* ADVDespesas.swift */,
+				1054E145205974B300A1BDAC /* ADVHomeCell.swift */,
 			);
 			path = ADVModels;
+			sourceTree = "<group>";
+		};
+		1054E1212059565F00A1BDAC /* ADVCell */ = {
+			isa = PBXGroup;
+			children = (
+				1054E14C2059B9EA00A1BDAC /* ADVHomeView */,
+				1054E1222059566900A1BDAC /* ADVHomeViewCellsSugestao */,
+				1062293D2057013C007C109C /* ADVReportViewCells */,
+			);
+			path = ADVCell;
+			sourceTree = "<group>";
+		};
+		1054E1222059566900A1BDAC /* ADVHomeViewCellsSugestao */ = {
+			isa = PBXGroup;
+			children = (
+				1054E13E205960B200A1BDAC /* ADVTitleExpandableCell */,
+				1054E12B205957C000A1BDAC /* ADVInvestimento */,
+				1054E12A2059579F00A1BDAC /* ADVEmprestimo */,
+				1054E1292059578E00A1BDAC /* ADVCartaoCredito */,
+				1054E1282059577900A1BDAC /* ADVCC */,
+				1054E14B20599F8700A1BDAC /* ADVFooter */,
+			);
+			path = ADVHomeViewCellsSugestao;
+			sourceTree = "<group>";
+		};
+		1054E123205956D200A1BDAC /* ADVHome */ = {
+			isa = PBXGroup;
+			children = (
+				1054E1432059701200A1BDAC /* ADVHomeViewController.swift */,
+				1054E1632059C2CA00A1BDAC /* ADVMinhaContaViewController.swift */,
+			);
+			path = ADVHome;
+			sourceTree = "<group>";
+		};
+		1054E1282059577900A1BDAC /* ADVCC */ = {
+			isa = PBXGroup;
+			children = (
+				1054E1242059576D00A1BDAC /* ADVContaCorrenteTableViewCell.swift */,
+				1054E1252059576D00A1BDAC /* ADVContaCorrenteTableViewCell.xib */,
+			);
+			path = ADVCC;
+			sourceTree = "<group>";
+		};
+		1054E1292059578E00A1BDAC /* ADVCartaoCredito */ = {
+			isa = PBXGroup;
+			children = (
+				1054E12C205957E500A1BDAC /* ADVCartaoTableViewCell.swift */,
+				1054E12D205957E500A1BDAC /* ADVCartaoTableViewCell.xib */,
+			);
+			path = ADVCartaoCredito;
+			sourceTree = "<group>";
+		};
+		1054E12A2059579F00A1BDAC /* ADVEmprestimo */ = {
+			isa = PBXGroup;
+			children = (
+				1054E130205957F300A1BDAC /* ADVEmprestCell.swift */,
+				1054E131205957F300A1BDAC /* ADVEmprestimoTableViewCell.xib */,
+			);
+			path = ADVEmprestimo;
+			sourceTree = "<group>";
+		};
+		1054E12B205957C000A1BDAC /* ADVInvestimento */ = {
+			isa = PBXGroup;
+			children = (
+				1054E1362059582200A1BDAC /* ADVInvestimentoTableViewCell.swift */,
+				1054E1372059582200A1BDAC /* ADVInvestimentoTableViewCell.xib */,
+			);
+			path = ADVInvestimento;
+			sourceTree = "<group>";
+		};
+		1054E13E205960B200A1BDAC /* ADVTitleExpandableCell */ = {
+			isa = PBXGroup;
+			children = (
+				1054E13F2059611E00A1BDAC /* ADVTitleExpandableTableViewCell.swift */,
+				1054E1402059611E00A1BDAC /* ADVTitleExpandableTableViewCell.xib */,
+			);
+			path = ADVTitleExpandableCell;
+			sourceTree = "<group>";
+		};
+		1054E14B20599F8700A1BDAC /* ADVFooter */ = {
+			isa = PBXGroup;
+			children = (
+				1054E14720599EBF00A1BDAC /* FooterTableViewCell.swift */,
+				1054E14820599EBF00A1BDAC /* FooterTableViewCell.xib */,
+			);
+			path = ADVFooter;
+			sourceTree = "<group>";
+		};
+		1054E14C2059B9EA00A1BDAC /* ADVHomeView */ = {
+			isa = PBXGroup;
+			children = (
+				1054E14D2059B9F600A1BDAC /* ADVHomeCCCell */,
+				1054E1562059BEB900A1BDAC /* ADVCreditCardHomeCell */,
+				1054E15B2059BF2A00A1BDAC /* ADVInvestimentHomeCell */,
+				1054E1602059C18800A1BDAC /* ADVEmprestimo */,
+			);
+			path = ADVHomeView;
+			sourceTree = "<group>";
+		};
+		1054E14D2059B9F600A1BDAC /* ADVHomeCCCell */ = {
+			isa = PBXGroup;
+			children = (
+				1054E14E2059BA1400A1BDAC /* ADVHomeccTableViewCell.swift */,
+				1054E14F2059BA1400A1BDAC /* ADVHomeccTableViewCell.xib */,
+			);
+			path = ADVHomeCCCell;
+			sourceTree = "<group>";
+		};
+		1054E1562059BEB900A1BDAC /* ADVCreditCardHomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				1054E1522059BC3D00A1BDAC /* ADVCreditCardTableViewCell.swift */,
+				1054E1532059BC3D00A1BDAC /* ADVCreditCardTableViewCell.xib */,
+			);
+			path = ADVCreditCardHomeCell;
+			sourceTree = "<group>";
+		};
+		1054E15B2059BF2A00A1BDAC /* ADVInvestimentHomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				1054E1572059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.swift */,
+				1054E1582059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.xib */,
+			);
+			path = ADVInvestimentHomeCell;
+			sourceTree = "<group>";
+		};
+		1054E1602059C18800A1BDAC /* ADVEmprestimo */ = {
+			isa = PBXGroup;
+			children = (
+				1054E169205AA70F00A1BDAC /* ADVHomeEmprestimTableViewCell.swift */,
+				1054E16A205AA70F00A1BDAC /* ADVHomeEmprestimTableViewCell.xib */,
+			);
+			path = ADVEmprestimo;
 			sourceTree = "<group>";
 		};
 		105A39FC2045DA4700899C0A = {
@@ -179,13 +413,15 @@
 		105A3A072045DA4700899C0A /* FinantialAdivisorCortana */ = {
 			isa = PBXGroup;
 			children = (
+				10C092EC20604AFB00D9C4A6 /* ADVMetaClassCell */,
+				10400CAD205C401000114DAC /* ADVMetaCell */,
+				1054E1212059565F00A1BDAC /* ADVCell */,
 				1054E11E20586CFE00A1BDAC /* ADVModels */,
 				102CC4112058075E001DB1FB /* ADVControllers */,
-				1062293D2057013C007C109C /* ADVHomeCells */,
 				105A3A082045DA4700899C0A /* AppDelegate.swift */,
 				105A3A0A2045DA4700899C0A /* ViewController.swift */,
+				1054E16D205AC35C00A1BDAC /* Main.storyboard */,
 				1054E11020581A0400A1BDAC /* ADVOverviewReportViewController.swift */,
-				105A3A0C2045DA4800899C0A /* Main.storyboard */,
 				105A3A0F2045DA4800899C0A /* Assets.xcassets */,
 				105A3A112045DA4800899C0A /* LaunchScreen.storyboard */,
 				105A3A142045DA4800899C0A /* Info.plist */,
@@ -211,7 +447,7 @@
 			path = FinantialAdivisorCortanaUITests;
 			sourceTree = "<group>";
 		};
-		1062293D2057013C007C109C /* ADVHomeCells */ = {
+		1062293D2057013C007C109C /* ADVReportViewCells */ = {
 			isa = PBXGroup;
 			children = (
 				1054E11320583B8800A1BDAC /* ADVGraficoCell */,
@@ -220,7 +456,7 @@
 				1062293F2057018B007C109C /* ADVDespesas */,
 				1062293E20570156007C109C /* ADVBalancoCell */,
 			);
-			path = ADVHomeCells;
+			path = ADVReportViewCells;
 			sourceTree = "<group>";
 		};
 		1062293E20570156007C109C /* ADVBalancoCell */ = {
@@ -250,6 +486,107 @@
 				1062294820570345007C109C /* ADVGastosCollectionViewCell.xib */,
 			);
 			path = ADVGastosCell;
+			sourceTree = "<group>";
+		};
+		10C092D0205FF43500D9C4A6 /* ADVHeaderMetaCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C092D5205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.swift */,
+				10C092D6205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.xib */,
+			);
+			path = ADVHeaderMetaCell;
+			sourceTree = "<group>";
+		};
+		10C092D1205FF44800D9C4A6 /* ADVGraficoMetaCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C092D9205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.swift */,
+				10C092DA205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.xib */,
+			);
+			path = ADVGraficoMetaCell;
+			sourceTree = "<group>";
+		};
+		10C092D2205FF48600D9C4A6 /* ADVSavingMetaCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C092DD205FFC5700D9C4A6 /* ADVSavingTableViewCell.swift */,
+				10C092DE205FFC5700D9C4A6 /* ADVSavingTableViewCell.xib */,
+			);
+			path = ADVSavingMetaCell;
+			sourceTree = "<group>";
+		};
+		10C092D3205FF4B900D9C4A6 /* ADVMesesMetaCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C092E12060030900D9C4A6 /* ADVMesesTableViewCell.swift */,
+				10C092E22060030900D9C4A6 /* ADVMesesTableViewCell.xib */,
+			);
+			path = ADVMesesMetaCell;
+			sourceTree = "<group>";
+		};
+		10C092D4205FF4D900D9C4A6 /* ADVDespesasCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C092E52060081500D9C4A6 /* ADVFooterMetaTableViewCell.swift */,
+				10C092E62060081500D9C4A6 /* ADVFooterMetaTableViewCell.xib */,
+			);
+			path = ADVDespesasCell;
+			sourceTree = "<group>";
+		};
+		10C092E92060148A00D9C4A6 /* ADVMetas */ = {
+			isa = PBXGroup;
+			children = (
+				10C092EA206014A400D9C4A6 /* ADVMetasViewController.swift */,
+				10C093022061397E00D9C4A6 /* ADVMetaClassViewController.swift */,
+			);
+			path = ADVMetas;
+			sourceTree = "<group>";
+		};
+		10C092EC20604AFB00D9C4A6 /* ADVMetaClassCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C092F020604B6F00D9C4A6 /* ADVValoresGastosCell */,
+				10C092EF20604B4C00D9C4A6 /* ADVGasto&DataCell */,
+				10C092EE20604B3C00D9C4A6 /* ADVGraficoClassCell */,
+				10C092ED20604B2B00D9C4A6 /* ADVFooterClassCell */,
+			);
+			path = ADVMetaClassCell;
+			sourceTree = "<group>";
+		};
+		10C092ED20604B2B00D9C4A6 /* ADVFooterClassCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C092F220604CED00D9C4A6 /* ADVFooterClassTableViewCell.swift */,
+				10C092F320604CED00D9C4A6 /* ADVFooterClassTableViewCell.xib */,
+			);
+			path = ADVFooterClassCell;
+			sourceTree = "<group>";
+		};
+		10C092EE20604B3C00D9C4A6 /* ADVGraficoClassCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C092F620604E6000D9C4A6 /* ADVGraficoTableViewCell.swift */,
+				10C092F720604E6000D9C4A6 /* ADVGraficoTableViewCell.xib */,
+			);
+			path = ADVGraficoClassCell;
+			sourceTree = "<group>";
+		};
+		10C092EF20604B4C00D9C4A6 /* ADVGasto&DataCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C09306206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.swift */,
+				10C09307206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.xib */,
+			);
+			path = "ADVGasto&DataCell";
+			sourceTree = "<group>";
+		};
+		10C092F020604B6F00D9C4A6 /* ADVValoresGastosCell */ = {
+			isa = PBXGroup;
+			children = (
+				10C092FE206056F800D9C4A6 /* ADVValorClassTableViewCell.swift */,
+				10C092FF206056F800D9C4A6 /* ADVValorClassTableViewCell.xib */,
+			);
+			path = ADVValoresGastosCell;
 			sourceTree = "<group>";
 		};
 		67B5F7600E65232F706051D1 /* Frameworks */ = {
@@ -380,14 +717,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				105A3A132045DA4800899C0A /* LaunchScreen.storyboard in Resources */,
+				1054E16C205AA70F00A1BDAC /* ADVHomeEmprestimTableViewCell.xib in Resources */,
 				1062294A20570345007C109C /* ADVGastosCollectionViewCell.xib in Resources */,
+				10C09309206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.xib in Resources */,
+				10C092E82060081500D9C4A6 /* ADVFooterMetaTableViewCell.xib in Resources */,
+				10C092DC205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.xib in Resources */,
 				102CC4102057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.xib in Resources */,
+				10C092E0205FFC5700D9C4A6 /* ADVSavingTableViewCell.xib in Resources */,
+				10C092F520604CED00D9C4A6 /* ADVFooterClassTableViewCell.xib in Resources */,
+				1054E1272059576D00A1BDAC /* ADVContaCorrenteTableViewCell.xib in Resources */,
 				105A3A102045DA4800899C0A /* Assets.xcassets in Resources */,
+				1054E1392059582200A1BDAC /* ADVInvestimentoTableViewCell.xib in Resources */,
+				1054E1552059BC3D00A1BDAC /* ADVCreditCardTableViewCell.xib in Resources */,
+				1054E14A20599EBF00A1BDAC /* FooterTableViewCell.xib in Resources */,
+				10C092F920604E6000D9C4A6 /* ADVGraficoTableViewCell.xib in Resources */,
 				1054E11B20583DA000A1BDAC /* ADVGraficoPieableViewCell.xib in Resources */,
+				1054E1512059BA1400A1BDAC /* ADVHomeccTableViewCell.xib in Resources */,
+				1054E15A2059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.xib in Resources */,
 				1062293C20570135007C109C /* ADVBalancoTableViewCell.xib in Resources */,
-				105A3A0E2045DA4800899C0A /* Main.storyboard in Resources */,
+				10C09301206056F800D9C4A6 /* ADVValorClassTableViewCell.xib in Resources */,
+				10C092E42060030900D9C4A6 /* ADVMesesTableViewCell.xib in Resources */,
+				1054E1422059611E00A1BDAC /* ADVTitleExpandableTableViewCell.xib in Resources */,
 				1062295520570E4B007C109C /* ADVDespesasCell2TableViewCell.xib in Resources */,
 				10622943205701A8007C109C /* ADVDespesasTableViewCell.xib in Resources */,
+				1054E133205957F300A1BDAC /* ADVEmprestimoTableViewCell.xib in Resources */,
+				10C092D8205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.xib in Resources */,
+				1054E16E205AC35C00A1BDAC /* Main.storyboard in Resources */,
+				1054E12F205957E500A1BDAC /* ADVCartaoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,14 +772,20 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FinantialAdivisorCortana/Pods-FinantialAdivisorCortana-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ExpandableCell/ExpandableCell.framework",
 				"${BUILT_PRODUCTS_DIR}/RKPieChart/RKPieChart.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandableCell.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RKPieChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -470,18 +832,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1054E1382059582200A1BDAC /* ADVInvestimentoTableViewCell.swift in Sources */,
 				1062293B20570135007C109C /* ADVBalancoTableViewCell.swift in Sources */,
+				1054E14920599EBF00A1BDAC /* FooterTableViewCell.swift in Sources */,
+				10C092EB206014A400D9C4A6 /* ADVMetasViewController.swift in Sources */,
 				105A3A0B2045DA4700899C0A /* ViewController.swift in Sources */,
+				10C092DB205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.swift in Sources */,
 				1054E11D20586C6800A1BDAC /* ADVDespesasTransacoesViewController.swift in Sources */,
+				1054E16B205AA70F00A1BDAC /* ADVHomeEmprestimTableViewCell.swift in Sources */,
 				105A3A092045DA4700899C0A /* AppDelegate.swift in Sources */,
+				10C092E72060081500D9C4A6 /* ADVFooterMetaTableViewCell.swift in Sources */,
+				1054E1442059701200A1BDAC /* ADVHomeViewController.swift in Sources */,
+				1054E146205974B300A1BDAC /* ADVHomeCell.swift in Sources */,
+				10C092F820604E6000D9C4A6 /* ADVGraficoTableViewCell.swift in Sources */,
 				102CC40F2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.swift in Sources */,
+				10C09300206056F800D9C4A6 /* ADVValorClassTableViewCell.swift in Sources */,
+				1054E132205957F300A1BDAC /* ADVEmprestCell.swift in Sources */,
+				1054E1542059BC3D00A1BDAC /* ADVCreditCardTableViewCell.swift in Sources */,
 				102CC41420580781001DB1FB /* ADVDespesasViewController.swift in Sources */,
+				1054E1262059576D00A1BDAC /* ADVContaCorrenteTableViewCell.swift in Sources */,
 				1062294920570345007C109C /* ADVGastosCollectionViewCell.swift in Sources */,
 				1054E12020586D1600A1BDAC /* ADVDespesas.swift in Sources */,
+				10C092DF205FFC5700D9C4A6 /* ADVSavingTableViewCell.swift in Sources */,
+				1054E1592059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.swift in Sources */,
 				1054E11120581A0400A1BDAC /* ADVOverviewReportViewController.swift in Sources */,
+				1054E1642059C2CA00A1BDAC /* ADVMinhaContaViewController.swift in Sources */,
+				1054E1502059BA1400A1BDAC /* ADVHomeccTableViewCell.swift in Sources */,
+				10C09308206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.swift in Sources */,
+				10C092E32060030900D9C4A6 /* ADVMesesTableViewCell.swift in Sources */,
+				10C093032061397E00D9C4A6 /* ADVMetaClassViewController.swift in Sources */,
 				10622942205701A8007C109C /* ADVDespesasTableViewCell.swift in Sources */,
 				1062295420570E4B007C109C /* ADVDespesasCell2TableViewCell.swift in Sources */,
 				1054E11A20583DA000A1BDAC /* ADVGraficoPieableViewCell.swift in Sources */,
+				1054E1412059611E00A1BDAC /* ADVTitleExpandableTableViewCell.swift in Sources */,
+				10C092F420604CED00D9C4A6 /* ADVFooterClassTableViewCell.swift in Sources */,
+				10C092D7205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.swift in Sources */,
+				1054E12E205957E500A1BDAC /* ADVCartaoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,14 +903,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		105A3A0C2045DA4800899C0A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				105A3A0D2045DA4800899C0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		105A3A112045DA4800899C0A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

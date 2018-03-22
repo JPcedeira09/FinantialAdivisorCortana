@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B635012FA8462822CCA1AD0C6E66BF8"
+               BlueprintIdentifier = "D5830323C43F28235A1B3340FB39912E"
                BuildableName = "Pods_FinantialAdivisorCortana.framework"
                BlueprintName = "Pods-FinantialAdivisorCortana"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B635012FA8462822CCA1AD0C6E66BF8"
+            BlueprintIdentifier = "D5830323C43F28235A1B3340FB39912E"
             BuildableName = "Pods_FinantialAdivisorCortana.framework"
             BlueprintName = "Pods-FinantialAdivisorCortana"
             ReferencedContainer = "container:Pods.xcodeproj">

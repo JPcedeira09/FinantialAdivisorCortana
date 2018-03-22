@@ -1,18 +1,27 @@
 PODS:
   - Alamofire (4.6.0)
+  - ExpandableCell (1.2.2)
   - RKPieChart (0.0.1)
+  - SideMenu (3.0.1)
   - SwiftSpinner (1.5.0)
+  - UICircularProgressRing (1.8.4)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
+  - ExpandableCell (~> 1.2)
   - RKPieChart
+  - SideMenu (= 3.0.1)
   - SwiftSpinner
+  - UICircularProgressRing (~> 1.8)
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  ExpandableCell: f2d99f9ae03a8c393e268adddaeb7f6d2525a76e
   RKPieChart: 8e643c505d24e61574f3a2fd6bd807403840b24b
+  SideMenu: f1fe8a4d23c8ae06d5cb18b21be29851d78fd2f2
   SwiftSpinner: 4c058c7a1d6b444dd2e1d70988ead40783097133
+  UICircularProgressRing: 653b31f7252b2959e8234f5b9ea5f925da755954
 
-PODFILE CHECKSUM: 0b68a964c1ac4f40a932cd15a56ea89f1453f4f7
+PODFILE CHECKSUM: 486ac9f78a467984a0e163ba9147735255d5f931
 
 COCOAPODS: 1.4.0

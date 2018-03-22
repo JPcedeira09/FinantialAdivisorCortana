@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ADVGraficoTableViewCell" rowHeight="267" id="KGk-i7-Jjw" customClass="ADVGraficoTableViewCell" customModule="FinantialAdivisorCortana" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="267"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="266.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x7n-zk-vdl" customClass="UICircularProgressRingView" customModule="UICircularProgressRing">
+                        <rect key="frame" x="40" y="13.5" width="240" height="240"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="240" id="bJ2-Ai-37T"/>
+                            <constraint firstAttribute="width" constant="240" id="rNJ-23-VLz"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="ibRingStyle">
+                                <integer key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                                <real key="value" value="99"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="outerRingColor">
+                                <color key="value" red="0.23067170379999999" green="0.71497994659999997" blue="0.71290564540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="innerRingColor">
+                                <color key="value" red="0.99073380229999997" green="0.71803349260000005" blue="0.0003992927086" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                <color key="value" red="0.23136690260000001" green="0.23153245450000001" blue="0.22316837310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="outerRingWidth">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="innerRingWidth">
+                                <real key="value" value="9"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.89800101519999997" green="0.89845472569999996" blue="0.87750619649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="x7n-zk-vdl" secondAttribute="bottom" constant="2.5" id="76u-Op-FbD"/>
+                    <constraint firstItem="x7n-zk-vdl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2.5" id="M3B-Cw-jKE"/>
+                    <constraint firstItem="x7n-zk-vdl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Mzg-nc-bM0"/>
+                    <constraint firstItem="x7n-zk-vdl" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="xBF-O9-MEO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="grafico" destination="x7n-zk-vdl" id="faE-7k-hqy"/>
+            </connections>
+            <point key="canvasLocation" x="70" y="165.5"/>
+        </tableViewCell>
+    </objects>
+</document>

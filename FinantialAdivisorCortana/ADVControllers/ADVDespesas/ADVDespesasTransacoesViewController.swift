@@ -25,12 +25,15 @@ class ADVDespesasTransacoesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let mockGastos = [self.comprar1, self.comprar2, self.comprar3, self.comprar4,self.comprar5,self.comprar6,self.comprar7,self.comprar8]
         
         self.gastos = mockGastos
         
         self.table.delegate = self
+        
         self.table.dataSource = self
+        
         self.table.register(UINib(nibName: "ADVDespesasCell2TableViewCell", bundle: nil), forCellReuseIdentifier: "ADVDespesasCell2TableViewCell")
     }
     
@@ -75,7 +78,5 @@ extension ADVDespesasTransacoesViewController : UITableViewDelegate, UITableView
         
         return cell
     }
-    
-    
     
 }
