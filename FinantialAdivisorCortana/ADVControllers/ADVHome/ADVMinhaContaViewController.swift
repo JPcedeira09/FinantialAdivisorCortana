@@ -15,10 +15,23 @@ class ADVMinhaContaViewController: UIViewController {
     @IBOutlet weak var imageBanco: UIImageView!
     @IBOutlet weak var imgPerfil: UIImageView!
     
+    @IBAction func btnImage(_ sender: UIButton) {
+        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "popUpAdvisor") as! PopUpContratarViewController
+       
+        self.addChildViewController(popOverVC)
+        popOverVC.view.frame = self.view.frame
+        self.view.addSubview(popOverVC.view)
+        popOverVC.didMove(toParentViewController: self)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         confBar()
         imgLogo()
+        self.imgPerfil.layer.borderWidth = 1
+        
+        self.imgPerfil.layer.borderColor = UIColor.black.cgColor
         
         self.table.dataSource = self
         self.table.delegate = self
@@ -28,7 +41,6 @@ class ADVMinhaContaViewController: UIViewController {
         self.table.register(UINib(nibName: "ADVInvertimentsHomeTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVInvertimentsHomeTableViewCell")
         self.table.register(UINib(nibName: "ADVHomeEmprestimTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVHomeEmprestimTableViewCell")
 
-        
     }
     
 }

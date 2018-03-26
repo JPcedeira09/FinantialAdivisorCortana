@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1017CE7F2069758C009EA297 /* PopUpContratarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1017CE7E2069758C009EA297 /* PopUpContratarViewController.swift */; };
 		102CC40F2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CC40D2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.swift */; };
 		102CC4102057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102CC40E2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.xib */; };
 		102CC41420580781001DB1FB /* ADVDespesasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CC41320580781001DB1FB /* ADVDespesasViewController.swift */; };
@@ -94,6 +95,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1017CE7E2069758C009EA297 /* PopUpContratarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpContratarViewController.swift; sourceTree = "<group>"; };
 		102CC40D2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesasClassificadasTableViewCell.swift; sourceTree = "<group>"; };
 		102CC40E2057FDD8001DB1FB /* ADVDespesasClassificadasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVDespesasClassificadasTableViewCell.xib; sourceTree = "<group>"; };
 		102CC41320580781001DB1FB /* ADVDespesasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesasViewController.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 			children = (
 				1054E1432059701200A1BDAC /* ADVHomeViewController.swift */,
 				1054E1632059C2CA00A1BDAC /* ADVMinhaContaViewController.swift */,
+				1017CE7E2069758C009EA297 /* PopUpContratarViewController.swift */,
 			);
 			path = ADVHome;
 			sourceTree = "<group>";
@@ -862,6 +865,7 @@
 				10C092E32060030900D9C4A6 /* ADVMesesTableViewCell.swift in Sources */,
 				10C093032061397E00D9C4A6 /* ADVMetaClassViewController.swift in Sources */,
 				10622942205701A8007C109C /* ADVDespesasTableViewCell.swift in Sources */,
+				1017CE7F2069758C009EA297 /* PopUpContratarViewController.swift in Sources */,
 				1062295420570E4B007C109C /* ADVDespesasCell2TableViewCell.swift in Sources */,
 				1054E11A20583DA000A1BDAC /* ADVGraficoPieableViewCell.swift in Sources */,
 				1054E1412059611E00A1BDAC /* ADVTitleExpandableTableViewCell.swift in Sources */,
