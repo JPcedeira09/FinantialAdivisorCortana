@@ -16,12 +16,15 @@ class ADVMinhaContaViewController: UIViewController {
     @IBOutlet weak var imgPerfil: UIImageView!
     
     @IBAction func btnImage(_ sender: UIButton) {
-        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "popUpAdvisor") as! PopUpContratarViewController
-       
-        self.addChildViewController(popOverVC)
-        popOverVC.view.frame = self.view.frame
-        self.view.addSubview(popOverVC.view)
-        popOverVC.didMove(toParentViewController: self)
+        
+        //performSegue(withIdentifier: "segue", sender: nil)
+        
+        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "popUpAdvisorHome") as! PopUpContratarViewController
+         
+         self.addChildViewController(popOverVC)
+         popOverVC.view.frame = self.view.frame
+         self.view.addSubview(popOverVC.view)
+         popOverVC.didMove(toParentViewController: self)
     }
     
     
@@ -29,8 +32,8 @@ class ADVMinhaContaViewController: UIViewController {
         super.viewDidLoad()
         confBar()
         imgLogo()
-        self.imgPerfil.layer.borderWidth = 1
         
+        self.imgPerfil.layer.borderWidth = 1
         self.imgPerfil.layer.borderColor = UIColor.black.cgColor
         
         self.table.dataSource = self
@@ -40,7 +43,7 @@ class ADVMinhaContaViewController: UIViewController {
         self.table.register(UINib(nibName: "ADVCreditCardTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVCreditCardTableViewCell")
         self.table.register(UINib(nibName: "ADVInvertimentsHomeTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVInvertimentsHomeTableViewCell")
         self.table.register(UINib(nibName: "ADVHomeEmprestimTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVHomeEmprestimTableViewCell")
-
+        
     }
     
 }
@@ -68,11 +71,12 @@ extension ADVMinhaContaViewController : UITableViewDelegate, UITableViewDataSour
             
             let cell = table.dequeueReusableCell(withIdentifier: "ADVCreditCardTableViewCell") as! ADVCreditCardTableViewCell
             
-            cell.viewMae.layer.cornerRadius = 3
+            cell.viewMae.layer.cornerRadius = 6
+            
             let firstItem: RKPieChartItem = RKPieChartItem(ratio: 50, color: UIColor.orange)
             let secondItem: RKPieChartItem = RKPieChartItem(ratio: 30, color: UIColor.gray)
             let thirdItem: RKPieChartItem = RKPieChartItem(ratio: 20, color: UIColor.yellow)
-
+            
             let chartView = RKPieChartView(items: [firstItem, secondItem, thirdItem], centerTitle: "70%")
             chartView.circleColor = .clear
             chartView.translatesAutoresizingMaskIntoConstraints = false
@@ -91,12 +95,12 @@ extension ADVMinhaContaViewController : UITableViewDelegate, UITableViewDataSour
             cell.valor.text = String(600.8)
             
             return cell
-
+            
             
         } else if indexPath.row == 2 {
             let cell = table.dequeueReusableCell(withIdentifier: "ADVHomeEmprestimTableViewCell") as! ADVHomeEmprestimTableViewCell
             
-            cell.viewMae.layer.cornerRadius = 3
+            cell.viewMae.layer.cornerRadius = 6
             cell.valor.text = String(400.90)
             
             return cell
@@ -104,8 +108,7 @@ extension ADVMinhaContaViewController : UITableViewDelegate, UITableViewDataSour
             let cell = table.dequeueReusableCell(withIdentifier: "ADVInvertimentsHomeTableViewCell") as! ADVInvertimentsHomeTableViewCell
             
             cell.valor.text = String(400.90)
-            cell.viewMae.layer.cornerRadius = 3
-
+            cell.viewMae.layer.cornerRadius = 6
             
             let firstItem: RKPieChartItem = RKPieChartItem(ratio: 50, color: UIColor.orange)
             let secondItem: RKPieChartItem = RKPieChartItem(ratio: 30, color: UIColor.gray)
@@ -127,15 +130,16 @@ extension ADVMinhaContaViewController : UITableViewDelegate, UITableViewDataSour
             chartView.centerYAnchor.constraint(equalTo: cell.graficoView.centerYAnchor).isActive = true
             
             return cell
-
+            
         }
             
         else{
             let cell = table.dequeueReusableCell(withIdentifier: "ADVHomeEmprestimTableViewCell") as! ADVHomeEmprestimTableViewCell
             
+            
             cell.valor.text = String(400.90)
-            cell.viewMae.layer.cornerRadius = 3
-
+            cell.viewMae.layer.cornerRadius = 6
+            
             return cell
         }
     }
