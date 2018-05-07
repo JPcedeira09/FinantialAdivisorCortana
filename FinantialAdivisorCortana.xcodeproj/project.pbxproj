@@ -54,10 +54,6 @@
 		1062294A20570345007C109C /* ADVGastosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1062294820570345007C109C /* ADVGastosCollectionViewCell.xib */; };
 		1062295420570E4B007C109C /* ADVDespesasCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1062295220570E4B007C109C /* ADVDespesasCell2TableViewCell.swift */; };
 		1062295520570E4B007C109C /* ADVDespesasCell2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1062295320570E4B007C109C /* ADVDespesasCell2TableViewCell.xib */; };
-		10786207206AB43C002212C9 /* ADVPopUpSimularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10786206206AB43C002212C9 /* ADVPopUpSimularViewController.swift */; };
-		10786209206AB9F8002212C9 /* ADVPopUpSimularOpenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10786208206AB9F8002212C9 /* ADVPopUpSimularOpenViewController.swift */; };
-		1078620E206BEEBE002212C9 /* ADVPopUpSalarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1078620D206BEEBE002212C9 /* ADVPopUpSalarioViewController.swift */; };
-		10786210206BEEDD002212C9 /* ADVPopUpContratarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1078620F206BEEDD002212C9 /* ADVPopUpContratarViewController.swift */; };
 		10C092D7205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092D5205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.swift */; };
 		10C092D8205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C092D6205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.xib */; };
 		10C092DB205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C092D9205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.swift */; };
@@ -152,10 +148,6 @@
 		1062294820570345007C109C /* ADVGastosCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVGastosCollectionViewCell.xib; sourceTree = "<group>"; };
 		1062295220570E4B007C109C /* ADVDespesasCell2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVDespesasCell2TableViewCell.swift; sourceTree = "<group>"; };
 		1062295320570E4B007C109C /* ADVDespesasCell2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVDespesasCell2TableViewCell.xib; sourceTree = "<group>"; };
-		10786206206AB43C002212C9 /* ADVPopUpSimularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVPopUpSimularViewController.swift; sourceTree = "<group>"; };
-		10786208206AB9F8002212C9 /* ADVPopUpSimularOpenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVPopUpSimularOpenViewController.swift; sourceTree = "<group>"; };
-		1078620D206BEEBE002212C9 /* ADVPopUpSalarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVPopUpSalarioViewController.swift; sourceTree = "<group>"; };
-		1078620F206BEEDD002212C9 /* ADVPopUpContratarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVPopUpContratarViewController.swift; sourceTree = "<group>"; };
 		10C092D5205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVHeaderMetaTableViewCell.swift; sourceTree = "<group>"; };
 		10C092D6205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVHeaderMetaTableViewCell.xib; sourceTree = "<group>"; };
 		10C092D9205FFB5500D9C4A6 /* ADVGraficoMetaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADVGraficoMetaTableViewCell.swift; sourceTree = "<group>"; };
@@ -293,7 +285,7 @@
 			children = (
 				1054E1432059701200A1BDAC /* ADVHomeViewController.swift */,
 				1054E1632059C2CA00A1BDAC /* ADVMinhaContaViewController.swift */,
-				1078620C206BD0BD002212C9 /* ADVPopUpContratacao */,
+				1017CE7E2069758C009EA297 /* PopUpContratarViewController.swift */,
 			);
 			path = ADVHome;
 			sourceTree = "<group>";
@@ -497,18 +489,6 @@
 				1062294820570345007C109C /* ADVGastosCollectionViewCell.xib */,
 			);
 			path = ADVGastosCell;
-			sourceTree = "<group>";
-		};
-		1078620C206BD0BD002212C9 /* ADVPopUpContratacao */ = {
-			isa = PBXGroup;
-			children = (
-				1017CE7E2069758C009EA297 /* PopUpContratarViewController.swift */,
-				10786206206AB43C002212C9 /* ADVPopUpSimularViewController.swift */,
-				10786208206AB9F8002212C9 /* ADVPopUpSimularOpenViewController.swift */,
-				1078620D206BEEBE002212C9 /* ADVPopUpSalarioViewController.swift */,
-				1078620F206BEEDD002212C9 /* ADVPopUpContratarViewController.swift */,
-			);
-			path = ADVPopUpContratacao;
 			sourceTree = "<group>";
 		};
 		10C092D0205FF43500D9C4A6 /* ADVHeaderMetaCell */ = {
@@ -880,19 +860,15 @@
 				1054E1592059BEEB00A1BDAC /* ADVInvertimentsHomeTableViewCell.swift in Sources */,
 				1054E11120581A0400A1BDAC /* ADVOverviewReportViewController.swift in Sources */,
 				1054E1642059C2CA00A1BDAC /* ADVMinhaContaViewController.swift in Sources */,
-				10786207206AB43C002212C9 /* ADVPopUpSimularViewController.swift in Sources */,
 				1054E1502059BA1400A1BDAC /* ADVHomeccTableViewCell.swift in Sources */,
 				10C09308206145C300D9C4A6 /* ADVGatosEDatasTableViewCell.swift in Sources */,
-				10786209206AB9F8002212C9 /* ADVPopUpSimularOpenViewController.swift in Sources */,
 				10C092E32060030900D9C4A6 /* ADVMesesTableViewCell.swift in Sources */,
 				10C093032061397E00D9C4A6 /* ADVMetaClassViewController.swift in Sources */,
 				10622942205701A8007C109C /* ADVDespesasTableViewCell.swift in Sources */,
 				1017CE7F2069758C009EA297 /* PopUpContratarViewController.swift in Sources */,
 				1062295420570E4B007C109C /* ADVDespesasCell2TableViewCell.swift in Sources */,
 				1054E11A20583DA000A1BDAC /* ADVGraficoPieableViewCell.swift in Sources */,
-				1078620E206BEEBE002212C9 /* ADVPopUpSalarioViewController.swift in Sources */,
 				1054E1412059611E00A1BDAC /* ADVTitleExpandableTableViewCell.swift in Sources */,
-				10786210206BEEDD002212C9 /* ADVPopUpContratarViewController.swift in Sources */,
 				10C092F420604CED00D9C4A6 /* ADVFooterClassTableViewCell.swift in Sources */,
 				10C092D7205FF99D00D9C4A6 /* ADVHeaderMetaTableViewCell.swift in Sources */,
 				1054E12E205957E500A1BDAC /* ADVCartaoTableViewCell.swift in Sources */,

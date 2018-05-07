@@ -40,7 +40,7 @@ class ADVHomeViewController: UIViewController {
         self.table.register(UINib(nibName: "ADVEmprestimoTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVEmprestimoTableViewCell")
         self.table.register(UINib(nibName: "ADVInvestimentoTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVInvestimentoTableViewCell")
         self.table.register(UINib(nibName: "ADVTitleExpandableTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVTitleExpandableTableViewCell")
-        self.table.register(UINib(nibName: "FooterTableViewCell", bundle: nil), forCellReuseIdentifier: "FooterTableViewCell")
+             self.table.register(UINib(nibName: "FooterTableViewCell", bundle: nil), forCellReuseIdentifier: "FooterTableViewCell")
         
     }
     
@@ -67,7 +67,6 @@ extension ADVHomeViewController : UITableViewDelegate, UITableViewDataSource{
         case 0:
             cell.imageExpandable.image = #imageLiteral(resourceName: "icContaCorrente")
             cell.titleExpandable.text = "Conta corrente"
-            
             return cell
             
         case 1:

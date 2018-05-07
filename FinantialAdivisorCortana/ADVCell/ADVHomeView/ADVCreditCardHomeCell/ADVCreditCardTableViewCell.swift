@@ -9,7 +9,6 @@
 import UIKit
 
 class ADVCreditCardTableViewCell: UITableViewCell {
-    
     @IBOutlet weak var viewMae: UIView!
     @IBOutlet weak var valor: UILabel!
     @IBOutlet weak var graficoView: UIView!

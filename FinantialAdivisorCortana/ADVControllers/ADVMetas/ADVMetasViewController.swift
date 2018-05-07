@@ -18,6 +18,7 @@ class ADVMetasViewController: UIViewController {
         self.table.dataSource = self
         self.table.delegate = self
         
+        
         self.table.register(UINib(nibName: "ADVHeaderMetaTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVHeaderMetaTableViewCell")
         
         self.table.register(UINib(nibName: "ADVGraficoMetaTableViewCell", bundle: nil), forCellReuseIdentifier: "ADVGraficoMetaTableViewCell")

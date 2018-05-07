@@ -14,7 +14,6 @@ class ADVHomeccTableViewCell: UITableViewCell {
     @IBOutlet weak var valorCC: UILabel!
     @IBOutlet weak var viewbordinha: UIView!
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
