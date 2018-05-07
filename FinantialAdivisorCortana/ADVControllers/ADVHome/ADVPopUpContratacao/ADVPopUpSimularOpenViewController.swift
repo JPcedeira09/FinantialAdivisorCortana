@@ -1,29 +1,39 @@
 //
-//  PopUpContratarViewController.swift
+//  ADVPopUpSimularOpenViewController.swift
 //  FinantialAdivisorCortana
 //
-//  Created by João Paulo  Tieles on 26/03/2018.
+//  Created by João Paulo  Tieles on 27/03/2018.
 //  Copyright © 2018 João Paulo  Tieles. All rights reserved.
 //
 
 import UIKit
 
-class PopUpContratarViewController: UIViewController {
+class ADVPopUpSimularOpenViewController: UIViewController {
     
-    @IBOutlet weak var popUp: UIView!
-    
+    @IBOutlet weak var textInfo1: UITextView!
     @IBOutlet weak var btnNao: UIButton!
-    
     @IBOutlet weak var btnSim: UIButton!
+    
+    @IBAction func btnSimular(_ sender: UIButton) {
+        
+        let popOverVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "popUpSalario") as! ADVPopUpSalarioViewController
+        self.addChildViewController(popOverVC)
+        popOverVC.view.frame = self.view.frame
+        self.view.addSubview(popOverVC.view)
+        popOverVC.didMove(toParentViewController: self)
+    }
+    
+    @IBOutlet weak var imageView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        popUp.layer.cornerRadius = 5
-        btnNao.layer.cornerRadius = 5
+        
+        imageView.layer.cornerRadius = 5
         btnSim.layer.cornerRadius = 5
-        
-        self.view.backgroundColor = UIColor.black.withAlphaComponent(0.8)
-        
+        btnNao.layer.cornerRadius = 5
+        textInfo1.isEditable = false
+        imageView.layer.cornerRadius = 5
+        self.view.backgroundColor = UIColor.clear
         self.showAnimate()
     }
     
@@ -59,5 +69,5 @@ class PopUpContratarViewController: UIViewController {
             }
         });
     }
-    
+  
 }
